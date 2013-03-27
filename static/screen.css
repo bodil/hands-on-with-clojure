@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Celestia';
+	src: url("/celestia.ttf") format("truetype");
+}
+
+body {
+  background-color: #ffeefa;
+  color: black;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Ubuntu', 'Verdana', sans-serif;
+}
+
+h1 {
+  font-family: 'Celestia';
+  font-size: 44px;
+  font-weight: normal;
+  color: #b92993;
+  background-color: #ffc2ee;
+  text-align: center;
+  line-height: 72px;
+  margin: 24pt 0 24pt 0;
+  box-shadow: 0 4px 16px #ffc2ee,
+              0 -4px 16px #ffc2ee;
+}
+
+h1 img {
+  vertical-align: middle;
+  margin: -24px 0.1em 0 0.1em;
+}
+
+h1 a {
+  color: #b92993;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table.ponies td, table.ponies th {
+  padding: 0 0.5em;
+}
+
+table.ponies th {
+  font-family: 'Celestia';
+  font-size: 20pt;
+  background-color: #ffbaec;
+}
+
+table.ponies tr:nth-child(odd), table.ponies tr > th {
+  background-color: #ffbfed;
+}
+
+table.ponies a {
+  font-family: 'Ubuntu', 'Verdana', sans-serif;
+  font-weight: normal;
+  display: block;
+  font-size: 14pt;
+  padding: 0 0.5em;
+  border-right: 2px solid #ff67d5;
+  border-bottom: 2px solid #ff67d5;
+  border-left: 2px solid #ffa2e5;
+  border-top: 2px solid #ffa2e5;
+  border-radius: 8px;
+  background-color: #ff8fe0;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.form th {
+  padding-right: 1em;
+  text-align: right;
+}
+
+.form input {
+  font-family: 'Ubuntu', 'Verdana', sans-serif;
+  font-weight: normal;
+  font-size: 14pt;
+  padding: 0 0.5em;
+}
+
+.form .submit {
+  text-align: right;
+}
