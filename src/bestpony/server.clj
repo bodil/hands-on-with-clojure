@@ -11,15 +11,6 @@
             [monger.collection :as m])
   (:import [org.bson.types ObjectId]))
 
-;;; For reference:
-
-;; Applejack        - Honesty
-;; Fluttershy       - Kindness
-;; Pinkie Pie       - Laughter
-;; Rarity           - Generosity
-;; Rainbow Dash     - Loyalty
-;; Twilight Sparkle - Magic
-
 (mongo/connect!)
 (mongo/use-db! "bestpony")
 

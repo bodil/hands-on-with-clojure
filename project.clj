@@ -5,7 +5,7 @@
             :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
   :plugins [[lein-catnip "0.6.0-SNAPSHOT"]]
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [ring "1.1.8"]
-                 [compojure "1.1.5"]
-                 [hiccup "1.0.3"]
-                 [com.novemberain/monger "1.5.0-rc1"]])
+                 [ring "1.2.1"]
+                 [compojure "1.1.6"]
+                 [hiccup "1.0.4"]
+                 [com.novemberain/monger "1.6.0"]])
